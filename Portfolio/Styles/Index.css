@@ -1,0 +1,214 @@
+body {
+    scroll-behavior: smooth;
+}
+.logo-container,.Sub-title,#about {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+header {
+    width: 100%;
+    position: sticky;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: rgb(17,59,97,255);
+    z-index: 100;
+    top: 0%;
+ } 
+
+.logo-container {
+width: 40px;
+height: 50px;
+margin-top: 20px;
+padding-inline-start: 20px;
+display: flex;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-weight:bold;
+}
+
+.logo-container p {
+    font-size: 35px;
+    padding-left: 40%;
+    margin: 8px;
+    color:whitesmoke;
+}
+/* navagation bar*/
+ nav {
+    color: white;
+    display: flex;
+    margin-inline-end: 30px;
+}
+
+nav ul {   
+     padding: 0;
+     display: flex; 
+}
+
+nav ul li {  
+    list-style-type: none;
+    color: whitesmoke;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:visited,
+nav ul li a:link 
+{
+    color: whitesmoke;
+}
+nav ul li a:hover {
+    color: rgb(0, 179, 255);
+}
+nav ul li.active {
+    border-bottom: 3px solid #9e904d;
+}
+nav ul li a:active {
+    border-bottom: 3px solid #9e904d;
+}
+
+.Socialmedia-icons img {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    padding: 25px 5px;
+    cursor: pointer;
+    color: white;
+    filter: opacity(0.7) drop-shadow(0 0 0 white) brightness(500%);
+}
+/* Text displayed on image*/
+.Section-title {
+    background-image: url(/Assests/1.jpg);
+    background-size:cover;
+    max-width: 100%;
+    height: 700px;
+    opacity: calc(0.9);
+    padding-left: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+   
+}
+.Sub-title {
+   padding: 50px 50px;
+   font-weight: 600;
+   padding-top: 180px;
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+/* About section */
+#about {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(17,59,97,255);
+    opacity: 0.8;
+    color: whitesmoke;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 20px;
+    padding-top: 90px;
+}
+.styling {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: 800;
+    font-size: 50px;
+    color: whitesmoke;
+}
+table,th,td{
+    text-align: center;
+    margin: 30px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Skills section  styling */
+#skills {
+    height: 700px;
+    background-color:rgb(17,59,97,255);
+    opacity: 0.8;
+    padding-top: 90px;
+}
+#images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px; 
+    height: 300px;   
+}
+.image-container { 
+height: fit-content;
+width: fit-content;
+font-size: 30px; 
+}
+.image-container img {
+    height: 200px;
+    width: 150px;
+    filter: opacity(0.7) drop-shadow(0 0 0 whitesmoke) brightness(500%);
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 50%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(0, 179, 255);
+    color: black;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 90%;
+}
+.CSS {
+    width: 80%;
+}
+.javascript {
+    width: 00%;
+}
+.ReactJs {
+    width: 00%;
+}
+.node-js {
+    width: 00%;
+}
+
+#contact {
+    background-color: rgb(17,59,97,255) ;
+    opacity: 0.8;
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.logo {
+    display: flex;
+    padding: 8px 0px;
+    margin: 0px 10px;
+    justify-content: center;
+}
+.logo input {
+    display: block;
+    width: 600px;
+    padding: 10px 20px; 
+    margin: 0px 10px;
+}
+.logo img{
+filter: opacity(0.7) drop-shadow(0 0 0 whitesmoke) brightness(500%);
+}
+.footer {
+height: 200px;
+text-align: center;
+background-color: rgb(17,59,97,255)
+}
+
