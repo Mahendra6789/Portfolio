@@ -15,7 +15,7 @@ This project briefly describes about the Education details,technical skills and 
 
 ## Screenshots
 
-![App Screenshot]("C:\Users\mahi1\OneDrive\Pictures\Screenshots\2022-09-19.png")
+<img width="960" alt="2022-09-19" src="https://user-images.githubusercontent.com/107022099/190994971-9003e704-4403-49e1-b610-c68293a7389d.png">
 
 
 ## Demo
