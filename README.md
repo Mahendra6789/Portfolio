@@ -15,7 +15,7 @@ This project briefly describes about the Education details,technical skills and 
 
 ## Screenshots
 
-<img width="960" alt="2022-09-19" src="https://user-images.githubusercontent.com/107022099/190994971-9003e704-4403-49e1-b610-c68293a7389d.png">
+<img width="902" alt="image" src="https://user-images.githubusercontent.com/107022099/191056472-d48c96fd-dd16-4b06-8ca8-7c34f53e6564.png">
 
 
 ## Demo
