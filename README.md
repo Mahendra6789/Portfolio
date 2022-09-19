@@ -20,7 +20,7 @@ This project briefly describes about the Education details,technical skills and 
 
 ## Demo
 
-https://www.loom.com/share/2ad9d9d584df4cebbc2e2ae14fcd2a41
+
 
 
 
